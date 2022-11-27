@@ -32,7 +32,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = ['*','https://web-production-b997.up.railway.app']
-
+CSRF_TRUSTED_ORIGINS = ['https://web-production-b997.up.railway.app']
 
 # Application definition
 
