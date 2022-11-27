@@ -31,7 +31,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['kaushik-todo-app.herokuapp.com','web-production-b997.up.railway.app','*']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
